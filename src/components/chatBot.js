@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Fab, Stack, Tooltip, Typography, Paper, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Button, Dialog, DialogContent, DialogTitle, Stack, Typography, Paper, useMediaQuery, useTheme } from "@mui/material";
 import { useEffect, useState } from "react";
 import Draggable from "react-draggable";
 
@@ -96,7 +96,7 @@ function ChatBot() {
                     </svg>
                     <Button disableRipple onClick={handleClickOpenAI}>
                         <img
-                            src='/assets/ChatBot.png'
+                            src='/jakartasatu-beta/assets/ChatBot.png'
                             alt="Gambar"
                             draggable="false"
                             onMouseEnter={() => setIsHovered(true)}

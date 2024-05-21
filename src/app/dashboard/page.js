@@ -221,7 +221,7 @@ function dashboard() {
                     </Button>
                     <section id="top5skpd" style={{ paddingTop: "50px", paddingBottom: isMobile ? "75px" : "150px", margin: "auto" }}>
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{
@@ -434,7 +434,7 @@ function dashboard() {
                             }}> <CircularProgress size={15} /> Lihat lainnya</Typography>
                         )} */}
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{

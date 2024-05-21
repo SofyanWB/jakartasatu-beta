@@ -209,7 +209,7 @@ function skpd() {
                             }}> <CircularProgress size={15} /> Lihat lainnya</Typography>
                         )}
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{

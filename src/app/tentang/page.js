@@ -113,7 +113,7 @@ function tentang() {
                             alignItems="flex-start"
                             spacing={1}>
                             <img
-                                src='/assets/Logojak1.png'
+                                src='/jakartasatu-beta/assets/Logojak1.png'
                                 alt="Gambar"
                                 draggable="false"
                                 style={{

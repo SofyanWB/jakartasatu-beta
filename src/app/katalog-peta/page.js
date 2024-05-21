@@ -123,7 +123,7 @@ function katalogPeta() {
                     </Button>
                     <section id="KatalogGeospasial" style={{ width: "90vw", maxWidth: "1260px", paddingTop: "50px" }}>
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{
@@ -437,7 +437,7 @@ function katalogPeta() {
                                                 gap={3}
                                                 sx={{ height: "100%" }}>
                                                 <img
-                                                    src='/assets/gambar-katalog-peta-atas-dashboard.png'
+                                                    src='/jakartasatu-beta/assets/gambar-katalog-peta-atas-dashboard.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -492,7 +492,7 @@ function katalogPeta() {
                                                 gap={3}
                                                 sx={{ height: "100%" }}>
                                                 <img
-                                                    src='/assets/gambar-katalog-peta-atas-peta.png'
+                                                    src='/jakartasatu-beta/assets/gambar-katalog-peta-atas-peta.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -610,7 +610,7 @@ function katalogPeta() {
                                     ))}
                                 </Grid>
                                 <img
-                                    src='/assets/Partikel-1.png'
+                                    src='/jakartasatu-beta/assets/Partikel-1.png'
                                     alt="Gambar"
                                     draggable="false"
                                     style={{

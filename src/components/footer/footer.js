@@ -35,7 +35,7 @@ export default function Footer() {
                     sx={{ maxWidth: "90vw" }}>
                     <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
                         <Image
-                            src="/assets/logo-jakartasatu-orange.png"
+                            src="/jakartasatu-beta/assets/logo-jakartasatu-orange.png"
                             alt="Logo"
                             width={0}
                             height={0}

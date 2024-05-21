@@ -481,7 +481,7 @@ function dataJakartaSatu() {
                     </Button>
                     <section id="dataJakartaSatu" style={{ width: "90vw", maxWidth: "1260px", paddingTop: "50px" }}>
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{
