@@ -1,8 +1,7 @@
 "use client"
 
-import PetaHome from '../../app/peta/interaktif/page2';
-import styles from '../page.module.css';
-
+import PetaHome from '/nextjs-github-pages/src/app/peta/interaktif/page2';
+import styles from '/nextjs-github-pages/src/components/page.module.css';
 import { forwardRef, useState } from "react";
 import { Box, Button, Dialog, DialogContent, Divider, Fab, Grow, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
