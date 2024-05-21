@@ -11,7 +11,7 @@ import BottomRight from "./component/BottomRight";
 import TopLeft from "./component/TopLeft";
 import Popup from "@arcgis/core/widgets/Popup";
 import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
-import TourContent from "/tourContent";
+import TourContent from "./TourContent";
 import PropTypes from 'prop-types';
 import Joyride from 'react-joyride';
 import Mobile from "./Mobile";
