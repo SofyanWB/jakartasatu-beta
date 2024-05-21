@@ -1,6 +1,6 @@
 const nextConfig = {
     output: "export",
-    basePath: "/nextjs-github-pages",
+    basePath: "/jakartasatu-beta",
     images: {
         unoptimized: true,
 

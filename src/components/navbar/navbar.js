@@ -48,7 +48,7 @@ export default function Navbar(props) {
                 }}>
                     <Link href="/">
                         <Image
-                            src="/nextjs-github-pages/assets/logo-jakartasatu-orange.png"
+                            src="/jakartasatu-beta/assets/logo-jakartasatu-orange.png"
                             alt="Logo"
                             width={0}
                             height={0}

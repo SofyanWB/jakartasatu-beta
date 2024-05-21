@@ -35,7 +35,7 @@ function home() {
             <div className={styles.container} style={{ paddingTop: "100px", width: "100%" }}>
                 <section id="welcome" style={{ margin: isMobile ? "50px 0 100px 0" : "160px 0", width: isMobile ? "90vw" : "", maxWidth: "1440px" }}>
                     <img
-                        src='/nextjs-github-pages/assets/Partikel-1.png'
+                        src='/jakartasatu-beta/assets/Partikel-1.png'
                         alt="Gambar"
                         draggable="false"
                         style={{
@@ -57,7 +57,7 @@ function home() {
                         sx={{ maxWidth: "90vw" }}>
                         <Grid xs={12} sm={12} md={12} lg={5.5} xl={5.5}>
                             <img
-                                src='/nextjs-github-pages/assets/Ellipse-2.png'
+                                src='/jakartasatu-beta/assets/Ellipse-2.png'
                                 alt="Gambar"
                                 draggable="false"
                                 style={{
@@ -96,7 +96,7 @@ function home() {
                         </Grid>
                         <Grid xs={12} sm={12} md={12} lg={5} xl={5}>
                             <div style={{ display: "flex", justifyContent: "center" }}>
-                                <img src='/nextjs-github-pages/assets/Gambar-atas.png'
+                                <img src='/jakartasatu-beta/assets/Gambar-atas.png'
                                     alt="Gambar"
                                     draggable="false"
                                     style={{
@@ -196,7 +196,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -215,7 +215,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -234,7 +234,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -251,7 +251,7 @@ function home() {
                                 </Grid>
                                 <Grid xs={5} sx={{ textAlign: "center" }}>
                                     <img
-                                        src='/nextjs-github-pages/assets/Gambar-layanan.png'
+                                        src='/jakartasatu-beta/assets/Gambar-layanan.png'
                                         alt="Gambar"
                                         draggable="false"
                                         style={{
@@ -319,7 +319,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -338,7 +338,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -357,7 +357,7 @@ function home() {
                                             justifyContent="flex-start"
                                             gap={2}>
                                             <img
-                                                src='/nextjs-github-pages/assets/Element-4.png'
+                                                src='/jakartasatu-beta/assets/Element-4.png'
                                                 alt="Gambar"
                                                 draggable="false"
                                                 style={{
@@ -392,7 +392,7 @@ function home() {
                                                 >
                                                     <Grid xs={3.5} sx={{ textAlign: "center" }}>
                                                         <img
-                                                            src="/nextjs-github-pages/assets/news.png"
+                                                            src="/jakartasatu-beta/assets/news.png"
                                                             alt="Logo"
                                                             draggable="false"
                                                             style={{
@@ -423,7 +423,7 @@ function home() {
                                                     </Grid>
                                                     <Grid xs={3.5} sx={{ textAlign: "center" }}>
                                                         <img
-                                                            src="/nextjs-github-pages/assets/projects.png"
+                                                            src="/jakartasatu-beta/assets/projects.png"
                                                             alt="Logo"
                                                             draggable="false"
                                                             style={{
@@ -454,7 +454,7 @@ function home() {
                                                     <Grid xs={3.5} sx={{ textAlign: "center" }}>
                                                         <Box sx={{ marginBottom: "30px", marginLeft: "10px" }}>
                                                             <img
-                                                                src="/nextjs-github-pages/assets/events.png"
+                                                                src="/jakartasatu-beta/assets/events.png"
                                                                 alt="Logo"
                                                                 draggable="false"
                                                                 style={{
@@ -491,7 +491,7 @@ function home() {
                                 <Grid xs={5} sx={{ textAlign: "center" }}>
                                     <Box sx={{ marginBottom: "30px", marginLeft: "10px" }}>
                                         <img
-                                            src='/nextjs-github-pages/assets/Gambar-news.png'
+                                            src='/jakartasatu-beta/assets/Gambar-news.png'
                                             alt="Gambar"
                                             draggable="false"
                                             style={{
@@ -576,7 +576,7 @@ function home() {
                                             }}>
                                             <Stack direction="row" alignItems="center" gap={2}>
                                                 <img
-                                                    src='/nextjs-github-pages/assets/Element-4.png'
+                                                    src='/jakartasatu-beta/assets/Element-4.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -591,7 +591,7 @@ function home() {
                                             </Stack>
                                             <Stack direction="row" alignItems="center" gap={2}>
                                                 <img
-                                                    src='/nextjs-github-pages/assets/Element-4.png'
+                                                    src='/jakartasatu-beta/assets/Element-4.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -606,7 +606,7 @@ function home() {
                                             </Stack>
                                             <Stack direction="row" alignItems="center" gap={2}>
                                                 <img
-                                                    src='/nextjs-github-pages/assets/Element-4.png'
+                                                    src='/jakartasatu-beta/assets/Element-4.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -643,7 +643,7 @@ function home() {
                                 </Grid>
                                 <Grid xs={4} sm={3} md={3} lg={3} xl={3} sx={{ textAlign: "center" }}>
                                     <Box sx={{ marginBottom: "30px" }}>
-                                        <img src='/nextjs-github-pages/assets/Gambar-skpd.png'
+                                        <img src='/jakartasatu-beta/assets/Gambar-skpd.png'
                                             alt="Gambar"
                                             draggable="false"
                                             style={{
@@ -745,7 +745,7 @@ function home() {
                     </Box>
 
                     <img
-                        src='/nextjs-github-pages/assets/Partikel-1.png'
+                        src='/jakartasatu-beta/assets/Partikel-1.png'
                         alt="Gambar"
                         draggable="false"
                         style={{
