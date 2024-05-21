@@ -2,7 +2,7 @@ import { Box, Button, useMediaQuery, useTheme } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 
-import Drawer from "/nextjs-github-pages/./drawerNavbar";
+import Drawer from "./drawerNavbar";
 import { useState } from "react";
 
 import MapRoundedIcon from '@mui/icons-material/MapRounded';
