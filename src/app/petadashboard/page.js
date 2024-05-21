@@ -128,7 +128,7 @@ function petadashboard() {
                     </Button>
                     <section id="petaDashboardTop5skpd" style={{ paddingTop: "50px", paddingBottom: isMobile ? "75px" : "100px", margin: "auto", width: isMobile ? "90vw" : "", maxWidth: "1440px" }}>
                         <img
-                            src='/assets/Partikel-1.png'
+                            src='/jakartasatu-beta/assets/Partikel-1.png'
                             alt="Gambar"
                             draggable="false"
                             style={{
@@ -334,7 +334,7 @@ function petadashboard() {
                                             </Typography>
                                             <Box sx={{ minHeight: "107px", alignItems: "center" }}>
                                                 <img
-                                                    src='/assets/smartrdtr.png'
+                                                    src='/jakartasatu-beta/assets/smartrdtr.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -402,7 +402,7 @@ function petadashboard() {
                                             </Typography>
                                             <Box sx={{ minHeight: "107px", alignItems: "center" }}>
                                                 <img
-                                                    src='/assets/aplikasi-dbdklim.png'
+                                                    src='/jakartasatu-beta/assets/aplikasi-dbdklim.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -474,7 +474,7 @@ function petadashboard() {
                                             </Typography>
                                             <Box sx={{ minHeight: "107px", alignItems: "center" }}>
                                                 <img
-                                                    src='/assets/aplikasi-surveilans.png'
+                                                    src='/jakartasatu-beta/assets/aplikasi-surveilans.png'
                                                     alt="Gambar"
                                                     draggable="false"
                                                     style={{
@@ -517,7 +517,7 @@ function petadashboard() {
                                 </Grid>
                             </Grid>
                             <img
-                                src='/assets/Partikel-1.png'
+                                src='/jakartasatu-beta/assets/Partikel-1.png'
                                 alt="Gambar"
                                 draggable="false"
                                 style={{
