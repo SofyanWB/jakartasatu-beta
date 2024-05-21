@@ -129,7 +129,7 @@ function ChatBot() {
                         alignItems="center">
                         <Box sx={{ display: "flex", alignItems: "center" }}>
                             <img
-                                src='/assets/ChatBot.png'
+                                src='/jakartasatu-beta/assets/ChatBot.png'
                                 alt="Gambar"
                                 draggable="false"
                                 style={{

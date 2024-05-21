@@ -55,7 +55,7 @@ export default function DrawerNavbar(props) {
                 }}>
                 <Link href="/">
                     <img
-                        src="/assets/logo-jakartasatu-orange.png"
+                        src="/jakartasatu-beta/assets/logo-jakartasatu-orange.png"
                         alt="Logo"
                         style={{ width: "280px", height: "auto", padding: "0 10px" }}
                     />
