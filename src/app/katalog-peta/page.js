@@ -14,7 +14,7 @@ import LockRoundedIcon from '@mui/icons-material/LockRounded';
 import DeleteForeverRoundedIcon from '@mui/icons-material/DeleteForeverRounded';
 import UnfoldMoreRoundedIcon from '@mui/icons-material/UnfoldMoreRounded';
 
-import Api from ".//api";
+import Api from "/api";
 
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from "react";
