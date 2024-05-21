@@ -324,76 +324,74 @@ function katalogPeta() {
                                                 </Button>
                                             </Box>
                                             {filteredItems(unduhList).map((unduh, i) => (
-                                                <Link key={i} href={`/katalog-peta/${unduh.title}`}>
-                                                    <Box key={i} elevation={0}
-                                                        sx={{
-                                                            background: "white",
-                                                            border: "1px solid #DFE6E9",
-                                                            borderRadius: "15px",
-                                                            padding: isMobile ? "15px" : "20px 40px",
-                                                            margin: isMobile ? "20px 0" : "30px 0"
-                                                        }}>
-                                                        <Grid container
-                                                            direction="row"
-                                                            alignItems="center">
-                                                            <Grid xs={8} sm={10} md={10} lg={10} xl={10} sx={{ textAlign: "start" }}>
-                                                                <Typography variant="p"
-                                                                    sx={{
-                                                                        color: "#003577",
-                                                                        fontSize: "20px",
-                                                                        fontWeight: "600",
-                                                                        lineHeight: "150%",
-                                                                        letterSpacing: "-0.38px",
-                                                                    }}>
-                                                                    {unduh.titleLeft} <span style={{ color: "#F7941D" }}>{unduh.titleRight}</span>
-                                                                </Typography>
-                                                                <Typography variant="p" paragraph
-                                                                    sx={{
-                                                                        color: "rgba(0, 0, 0, 0.60)",
-                                                                        fontSize: "16px",
-                                                                        fontWeight: "500",
-                                                                        lineHeight: "292%",
-                                                                        letterSpacing: "-0.38px",
-                                                                    }}>
-                                                                    {unduh.desc}
-                                                                </Typography>
-                                                                <Button disableElevation variant="contained" sx={{
-                                                                    textTransform: "none",
-                                                                    width: "138px",
-                                                                    height: "36px",
-                                                                    borderRadius: "10px",
-                                                                    color: "white",
-                                                                    background: "#F7941D",
-
-                                                                    fontSize: "18px",
-                                                                    fontWeight: "600"
+                                                <Box key={i} elevation={0}
+                                                    sx={{
+                                                        background: "white",
+                                                        border: "1px solid #DFE6E9",
+                                                        borderRadius: "15px",
+                                                        padding: isMobile ? "15px" : "20px 40px",
+                                                        margin: isMobile ? "20px 0" : "30px 0"
+                                                    }}>
+                                                    <Grid container
+                                                        direction="row"
+                                                        alignItems="center">
+                                                        <Grid xs={8} sm={10} md={10} lg={10} xl={10} sx={{ textAlign: "start" }}>
+                                                            <Typography variant="p"
+                                                                sx={{
+                                                                    color: "#003577",
+                                                                    fontSize: "20px",
+                                                                    fontWeight: "600",
+                                                                    lineHeight: "150%",
+                                                                    letterSpacing: "-0.38px",
                                                                 }}>
-                                                                    {unduh.button}
-                                                                </Button>
-                                                            </Grid>
-                                                            <Grid xs={4} sm={2} md={2} lg={2} xl={2}>
-                                                                {unduh.type === "Privat" ? (
-                                                                    <>
-                                                                        <LockRoundedIcon sx={{ fontSize: "40px", marginBottom: "20px" }} />
-                                                                    </>
-                                                                ) : null}
-                                                                <Button variant="contained" sx={{
-                                                                    textTransform: "none",
-                                                                    width: "104px",
-                                                                    height: "30px",
-                                                                    borderRadius: "10px",
-                                                                    color: "white",
-                                                                    background: unduh.type === "Privat" ? "#F32013" : "#07975C",
-
+                                                                {unduh.titleLeft} <span style={{ color: "#F7941D" }}>{unduh.titleRight}</span>
+                                                            </Typography>
+                                                            <Typography variant="p" paragraph
+                                                                sx={{
+                                                                    color: "rgba(0, 0, 0, 0.60)",
                                                                     fontSize: "16px",
-                                                                    fontWeight: "600"
+                                                                    fontWeight: "500",
+                                                                    lineHeight: "292%",
+                                                                    letterSpacing: "-0.38px",
                                                                 }}>
-                                                                    {unduh.type}
-                                                                </Button>
-                                                            </Grid>
+                                                                {unduh.desc}
+                                                            </Typography>
+                                                            <Button disableElevation variant="contained" sx={{
+                                                                textTransform: "none",
+                                                                width: "138px",
+                                                                height: "36px",
+                                                                borderRadius: "10px",
+                                                                color: "white",
+                                                                background: "#F7941D",
+
+                                                                fontSize: "18px",
+                                                                fontWeight: "600"
+                                                            }}>
+                                                                {unduh.button}
+                                                            </Button>
                                                         </Grid>
-                                                    </Box>
-                                                </Link>
+                                                        <Grid xs={4} sm={2} md={2} lg={2} xl={2}>
+                                                            {unduh.type === "Privat" ? (
+                                                                <>
+                                                                    <LockRoundedIcon sx={{ fontSize: "40px", marginBottom: "20px" }} />
+                                                                </>
+                                                            ) : null}
+                                                            <Button variant="contained" sx={{
+                                                                textTransform: "none",
+                                                                width: "104px",
+                                                                height: "30px",
+                                                                borderRadius: "10px",
+                                                                color: "white",
+                                                                background: unduh.type === "Privat" ? "#F32013" : "#07975C",
+
+                                                                fontSize: "16px",
+                                                                fontWeight: "600"
+                                                            }}>
+                                                                {unduh.type}
+                                                            </Button>
+                                                        </Grid>
+                                                    </Grid>
+                                                </Box>
                                             ))}
                                         </Grid>
                                     </Grid>
