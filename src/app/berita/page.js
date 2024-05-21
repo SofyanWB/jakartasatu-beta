@@ -93,40 +93,38 @@ function berita() {
                             width: "100%",
                         }}>
                         <CardContent className={styles.BeritaSectionAtas}>
-                            <CardActionArea id="btnBeritaLatestBerita" href={`/berita/${newsLatest.id}`}
-                                sx={{
-                                    margin: "-20px",
-                                    padding: "20px",
-                                    borderRadius: "18px",
-                                }}>
-                                <Typography variant="p" paragraph sx={{
-                                    fontSize: "14px",
-                                    lineHeight: "185.5%",
-                                    letterSpacing: "0.056px",
-                                    mb: 2
-                                }}>{newsLatest.created_at}</Typography>
-                                <Typography variant="p" paragraph sx={{
-                                    fontSize: "25px",
-                                    fontWeight: 500,
-                                    lineHeight: "157.8%",
-                                    mb: 2
-                                }}>{newsLatest.title}</Typography>
-                                <Typography variant="p" paragraph sx={{
-                                    textAlign: "justify",
-                                    fontSize: "16px",
-                                    lineHeight: "195.3%",
-                                    letterSpacing: "0.024px",
-                                    mb: 2
-                                }}>{newsLatest.short_content}...&nbsp;
-                                    <span
-                                        style={{
-                                            color: "#2F80ED",
-                                            textDecorationLine: "underline",
-                                        }}>
-                                        baca selengkapnya
-                                    </span>
-                                </Typography>
-                            </CardActionArea>
+                            sx={{
+                                margin: "-20px",
+                                padding: "20px",
+                                borderRadius: "18px",
+                            }}>
+                            <Typography variant="p" paragraph sx={{
+                                fontSize: "14px",
+                                lineHeight: "185.5%",
+                                letterSpacing: "0.056px",
+                                mb: 2
+                            }}>{newsLatest.created_at}</Typography>
+                            <Typography variant="p" paragraph sx={{
+                                fontSize: "25px",
+                                fontWeight: 500,
+                                lineHeight: "157.8%",
+                                mb: 2
+                            }}>{newsLatest.title}</Typography>
+                            <Typography variant="p" paragraph sx={{
+                                textAlign: "justify",
+                                fontSize: "16px",
+                                lineHeight: "195.3%",
+                                letterSpacing: "0.024px",
+                                mb: 2
+                            }}>{newsLatest.short_content}...&nbsp;
+                                <span
+                                    style={{
+                                        color: "#2F80ED",
+                                        textDecorationLine: "underline",
+                                    }}>
+                                    baca selengkapnya
+                                </span>
+                            </Typography>
                         </CardContent>
                         <img style={{
                             width: "100%",
@@ -222,48 +220,46 @@ function berita() {
                                     </CardMedia>
                                 </Grid>
                                 <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                                    <CardActionArea id="btnBeritaCarouselNews" href={`/berita/${step.id}`}
+                                    sx={{
+                                        padding: "20px",
+                                        borderRadius: "18px",
+                                    }}>
+                                    <CardContent
                                         sx={{
-                                            padding: "20px",
-                                            borderRadius: "18px",
+                                            textAlign: "left",
+                                            marginLeft: "-14px",
+                                            marginRight: "-14px",
+                                            marginTop: "-17px",
                                         }}>
-                                        <CardContent
-                                            sx={{
-                                                textAlign: "left",
-                                                marginLeft: "-14px",
-                                                marginRight: "-14px",
-                                                marginTop: "-17px",
-                                            }}>
-                                            <Typography variant="p" paragraph sx={{
-                                                color: "rgba(0, 0, 0, 0.70)",
-                                                fontSize: "14px",
-                                                lineHeight: "185.5%",
-                                                letterSpacing: "0.056px",
-                                                mb: 1,
-                                            }}>{step.created_at}</Typography>
-                                            <Typography variant="p" paragraph sx={{
-                                                color: "#003577",
-                                                fontSize: "26px",
-                                                fontWeight: 500,
-                                                lineHeight: "160%",
-                                                letterSpacing: "0.039px",
-                                                mb: 1,
-                                            }}>{step.title}</Typography>
-                                            <Typography variant="p" paragraph sx={{
-                                                fontSize: "16px",
-                                                lineHeight: "195.3%",
-                                                letterSpacing: "0.024px",
-                                            }}>{step.short_content}...&nbsp;
-                                                <span
-                                                    style={{
-                                                        color: "#2F80ED",
-                                                        textDecorationLine: "underline",
-                                                    }}>
-                                                    baca selengkapnya
-                                                </span>
-                                            </Typography>
-                                        </CardContent>
-                                    </CardActionArea>
+                                        <Typography variant="p" paragraph sx={{
+                                            color: "rgba(0, 0, 0, 0.70)",
+                                            fontSize: "14px",
+                                            lineHeight: "185.5%",
+                                            letterSpacing: "0.056px",
+                                            mb: 1,
+                                        }}>{step.created_at}</Typography>
+                                        <Typography variant="p" paragraph sx={{
+                                            color: "#003577",
+                                            fontSize: "26px",
+                                            fontWeight: 500,
+                                            lineHeight: "160%",
+                                            letterSpacing: "0.039px",
+                                            mb: 1,
+                                        }}>{step.title}</Typography>
+                                        <Typography variant="p" paragraph sx={{
+                                            fontSize: "16px",
+                                            lineHeight: "195.3%",
+                                            letterSpacing: "0.024px",
+                                        }}>{step.short_content}...&nbsp;
+                                            <span
+                                                style={{
+                                                    color: "#2F80ED",
+                                                    textDecorationLine: "underline",
+                                                }}>
+                                                baca selengkapnya
+                                            </span>
+                                        </Typography>
+                                    </CardContent>
                                 </Grid>
                             </Grid>
                         ))}
@@ -311,59 +307,57 @@ function berita() {
                         }}>
                         {newsList.map((news, i) => (
                             <Card key={i} elevation={0} square={true} sx={{ background: "none" }}>
-                                <CardActionArea id="btnBeritaSemuaBerita" href={`/berita/${news.id}`}
-                                    sx={{
-                                        padding: "20px",
-                                        borderRadius: "36px",
+                                sx={{
+                                    padding: "20px",
+                                    borderRadius: "36px",
 
+                                }}>
+                                <CardMedia component='div'>
+                                    {news.source_image && (
+                                        <img
+                                            style={{
+                                                // borderRadius: "18px",
+                                                maxWidth: "100%",
+                                                height: "auto",
+                                                backgroundColor: "grey"
+                                            }}
+                                            alt="" src={news.source_image} />
+                                    )}
+                                </CardMedia>
+                                <CardContent
+                                    sx={{
+                                        textAlign: "left",
+                                        marginLeft: "-14px",
+                                        marginRight: "-14px",
                                     }}>
-                                    <CardMedia component='div'>
-                                        {news.source_image && (
-                                            <img
-                                                style={{
-                                                    // borderRadius: "18px",
-                                                    maxWidth: "100%",
-                                                    height: "auto",
-                                                    backgroundColor: "grey"
-                                                }}
-                                                alt="" src={news.source_image} />
-                                        )}
-                                    </CardMedia>
-                                    <CardContent
-                                        sx={{
-                                            textAlign: "left",
-                                            marginLeft: "-14px",
-                                            marginRight: "-14px",
-                                        }}>
-                                        <Typography variant="p" paragraph sx={{
-                                            fontSize: "16px",
-                                            fontWeight: 500,
-                                            lineHeight: "171.3%",
-                                            letterSpacing: "0.024px",
-                                            mb: 1
-                                        }}>{news.title}</Typography>
-                                        <Typography variant="p" paragraph sx={{
-                                            color: "rgba(0, 0, 0, 0.70)",
-                                            fontSize: "12px",
-                                            fontWeight: "400",
-                                            mb: 1
-                                        }}>{news.created_at}</Typography>
-                                        <Typography variant="p" paragraph sx={{
-                                            fontSize: "12px",
-                                            textAlign: "justify",
-                                            lineHeight: "185.5%",
-                                            letterSpacing: "0.048px"
-                                        }}>{news.short_content}...&nbsp;
-                                            <span
-                                                style={{
-                                                    color: "#2F80ED",
-                                                    textDecorationLine: "underline",
-                                                }}>
-                                                baca selengkapnya
-                                            </span>
-                                        </Typography>
-                                    </CardContent>
-                                </CardActionArea>
+                                    <Typography variant="p" paragraph sx={{
+                                        fontSize: "16px",
+                                        fontWeight: 500,
+                                        lineHeight: "171.3%",
+                                        letterSpacing: "0.024px",
+                                        mb: 1
+                                    }}>{news.title}</Typography>
+                                    <Typography variant="p" paragraph sx={{
+                                        color: "rgba(0, 0, 0, 0.70)",
+                                        fontSize: "12px",
+                                        fontWeight: "400",
+                                        mb: 1
+                                    }}>{news.created_at}</Typography>
+                                    <Typography variant="p" paragraph sx={{
+                                        fontSize: "12px",
+                                        textAlign: "justify",
+                                        lineHeight: "185.5%",
+                                        letterSpacing: "0.048px"
+                                    }}>{news.short_content}...&nbsp;
+                                        <span
+                                            style={{
+                                                color: "#2F80ED",
+                                                textDecorationLine: "underline",
+                                            }}>
+                                            baca selengkapnya
+                                        </span>
+                                    </Typography>
+                                </CardContent>
                             </Card>
                         ))}
                     </Box>
