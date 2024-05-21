@@ -93,11 +93,6 @@ function berita() {
                             width: "100%",
                         }}>
                         <CardContent className={styles.BeritaSectionAtas}>
-                            sx={{
-                                margin: "-20px",
-                                padding: "20px",
-                                borderRadius: "18px",
-                            }}>
                             <Typography variant="p" paragraph sx={{
                                 fontSize: "14px",
                                 lineHeight: "185.5%",
@@ -220,10 +215,6 @@ function berita() {
                                     </CardMedia>
                                 </Grid>
                                 <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                                    sx={{
-                                        padding: "20px",
-                                        borderRadius: "18px",
-                                    }}>
                                     <CardContent
                                         sx={{
                                             textAlign: "left",
@@ -307,11 +298,6 @@ function berita() {
                         }}>
                         {newsList.map((news, i) => (
                             <Card key={i} elevation={0} square={true} sx={{ background: "none" }}>
-                                sx={{
-                                    padding: "20px",
-                                    borderRadius: "36px",
-
-                                }}>
                                 <CardMedia component='div'>
                                     {news.source_image && (
                                         <img
