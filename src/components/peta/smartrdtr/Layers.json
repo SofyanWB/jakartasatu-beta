@@ -1,0 +1,481 @@
+[
+    {
+        "name": "Rencana Detail Tata Ruang",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/RDTR_2022/Rencana_Pola_Ruang_RDTR_2022/FeatureServer/0",
+                "title": "Rencana Detail Tata Ruang",
+                "is_default": true,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<b>Zona</b> : {KODZON_1}<br><hr><b>Sub-Zona</b> : {KODSZN_1}<br><hr><b>Kelurahan</b> : {WADMKD}<br><hr><b>Kecamatan</b> : {WADMKC}<br><hr><b>Kabupaten/Kota</b> : {WADMKK}<br><hr><b>KDB</b> : {KDB}<br><hr><b>KLB</b> : {KLB}<br><hr><b>KTB</b> : {KTB}<br><hr><b>KDH</b> : {KDH}<br><hr><b>TPZ</b> : {TPZ_00}<br><hr><b>Diizinkan</b> : {IZN}<br><hr><b>Terbatas</b> : {TBT}<br><hr><b>Bersyarat</b> : {BST}"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Peta Tematik RDTR",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/0",
+                "title": "Zona Pengendalian Pertumbuhan",
+                "is_default": false,
+                "popupTemplate": {}
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/1",
+                "title": "Koridor GSB Nol",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{Nama}",
+                    "content": "<hr><b>Nama</b> : {Nama}<br><hr><b>Tipologi</b> : {Tipologi}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/2",
+                "title": "Kawasan Berorientasi Transit",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/3",
+                "title": "Kawasan Kompak",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/4",
+                "title": "Zona Ketentuan Khusus",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/5",
+                "title": "Zona Ambang",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/6",
+                "title": "Zona Pelestarian Cagar Budaya",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/7",
+                "title": "Kawasan Bebas Air Tanah",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{Nama}",
+                    "content": "<hr><b>Nama</b> : {Nama}<br><hr><b>Wilayah</b> : {Wilayah}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/8",
+                "title": "Jalan Bebas Air Tanah",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{Nama}",
+                    "content": "<hr><b>Nama</b> : {Nama}<br><hr><b>Wilayah</b> : {Wilayah}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/9",
+                "title": "Potensi RTH dan RTB",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/10",
+                "title": "Kawasan Keselamatan Operasi Penerbangan",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{kawasan}",
+                    "content": "<hr><b>Kawasan</b> : {kawasan}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/11",
+                "title": "Bangunan Cagar Budaya",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namaobj}",
+                    "content": "<hr><b>Nama</b> : {namaobj}<br><hr><b>Cagar Budaya</b> : {cagbud}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/12",
+                "title": "Daerah Pelayanan IPAL",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{remark}",
+                    "content": "<hr><b>Nama</b> : {remark}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/13",
+                "title": "Daerah Layanan Polder",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namobj}",
+                    "content": "<hr><b>Nama</b> : {namobj}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/14",
+                "title": "Intensitas Zona Perdagangan dan Jasa",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namobj}",
+                    "content": "<hr><b>Nama</b> : {namobj}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/15",
+                "title": "Koridor Pembatasan Lalu Lintas",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namobj}",
+                    "content": "<hr><b>Nama</b> : {namobj}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/16",
+                "title": "Kawasan Rawan Penurunan Muka Tanah",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{remark}",
+                    "content": "<hr><b>Nama</b> : {remark}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/17",
+                "title": "Kawasan Rawan Banjir",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{hazard_cla}",
+                    "content": "<hr><b>Kelas Banjir</b> : {hazard_cla}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/18",
+                "title": "Zona Bonus",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namobj}",
+                    "content": "<hr><b>Nama</b> : {namobj}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Hosted/Peta_Tematik_RDTR/FeatureServer/19",
+                "title": "Zona Intensitas Sangat Tinggi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{namobj}",
+                    "content": "<hr><b>Nama</b> : {namobj}<br>"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Batas Wilayah",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Batas_Administrasi_Update/Batas_Administrasi_DKI_Jakarta_Update_View/FeatureServer/4",
+                "title": "Batas Administrasi Kabupaten/Kota",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{WADMKK}",
+                    "content": "<hr><b>Kabupaten/Kota</b> : {WADMKK}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Batas_Administrasi_Update/Batas_Administrasi_DKI_Jakarta_Update_View/FeatureServer/3",
+                "title": "Batas Administrasi Kecamatan",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{WADMKC}",
+                    "content": "<hr><b>Kabupaten/Kota</b> : {WADMKK}<br><b>Kecamatan</b> : {WADMKC}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Batas_Administrasi_Update/Batas_Administrasi_DKI_Jakarta_Update_View/FeatureServer/2",
+                "title": "Batas Administrasi Kelurahan",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{WADMKD}",
+                    "content": "<hr><b>Kabupaten/Kota</b> : {WADMKK}<br><b>Kecamatan</b> : {WADMKC}<br><b>Kelurahan</b> : {WADMKD}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Batas_Administrasi_Update/Batas_Administrasi_DKI_Jakarta_Update_View/FeatureServer/1",
+                "title": "Batas Administrasi RW",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{WADMRW}",
+                    "content": "<hr><b>Kabupaten/Kota</b> : {WADMKK}<br><b>Kecamatan</b> : {WADMKC}<br><b>Kelurahan</b> : {WADMKD}<br><b>RW</b> : {WADMRW}<br>"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Batas_Administrasi_Update/Batas_Administrasi_DKI_Jakarta_Update_View/FeatureServer/0",
+                "title": "Batas Administrasi RT",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{WADMRT}",
+                    "content": "<hr><b>Kabupaten/Kota</b> : {WADMKK}<br><b>Kecamatan</b> : {WADMKC}<br><b>Kelurahan</b> : {WADMKD}<br><b>RW</b> : {WADMRW}<br><b>RT</b> : {WADMRT}<br>"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Peta Riwayat Tata Ruang",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/RDTR_2022/Rencana_Pola_Ruang_RDTR_2022/FeatureServer",
+                "title": "Rencana Rinci Tata Ruang Wilayah 2005",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{RENCANA}",
+                    "content": "<hr><b>Kecamatan</b> : {KECAMATAN}<br><hr><b>Rencana</b> : {RENCANA}<br>"
+                }
+            },
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/peta_operasional/Informasi_Rencana_Kota_DKI_Jakarta_View/FeatureServer/3",
+                "title": "Rencana Detail Tata Ruang 2014",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{SUB_ZONA}",
+                    "content": "<hr><b>Kode Blok</b> : {KODE_BLOK}<br><hr><b>Sub Blok</b> : {SUB_BLOK}<br><hr><b>Sub Zona</b> : {SUB_ZONA}<br><hr><b>TPZ</b> : {TPZ}<br><hr><b>CD TPZ</b> : {CD_TPZ}<br><hr><b>ID Sub Blok</b> : {ID_SUBBLOK}<br><hr><b>Zona</b> : {ZONA}<br><hr><b>PSL</b> : {PSL}<br><hr><b>KDB</b> : {KDB}<br><hr><b>KLB</b> : {KLB}<br><hr><b>KB</b> : {KB}<br><hr><b>KDH</b> : {KDH}<br><hr><b>KTB</b> : {KTB}<br><hr><b>Tipe</b> : {TIPE}<br><hr><b>Diizinkan</b> : {DIIZINKAN}<br><hr><b>Terbatas</b> : {TERBATAS}<br><hr><b>Bersyarat</b> : {BERSYARAT}<br><hr><b>Terbatas Bersyarat</b> : {TERBATAS_BERSYARAT}<br>"
+                }
+            },
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/peta_operasional/Informasi_Rencana_Kota_DKI_Jakarta_View/FeatureServer/0",
+                "title": "Rencana Dimensi Jalan 2014",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "Dimensi Jalan : {DIMENSI}",
+                    "content": "<hr><b>Dimensi</b> : {DIMENSI}<br><hr><b>Kecamatan</b> : {KECAMATAN}<br><hr><b>Keterangan</b> : {KETERANGAN}<br><hr><b>Jenis</b> : {JENIS}<br><hr><b>Nama</b> : {NAMA}<br><hr><b>Tipologi</b> : {TIPOLOGI}<br><hr>"
+                }
+            },
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/peta_operasional/Informasi_Rencana_Kota_DKI_Jakarta_View/FeatureServer/1",
+                "title": "Rencana Dimensi Sungai 2014",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "Dimensi Sungai : {DIMENSI}",
+                    "content": "<hr><b>Dimensi</b> : {DIMENSI}<br><hr><b>Kecamatan</b> : {KECAMATAN}<br><hr><b>Keterangan</b> : {KETERANGAN}<br>"
+                }
+            },
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/peta_operasional/Informasi_Rencana_Kota_DKI_Jakarta_View/FeatureServer/2",
+                "title": "Rencana Jalan 2014",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "Dimensi Sungai : {DIMENSI}",
+                    "content": "<hr><b>Nama</b> : {NAMA}<br><hr><b>Lebar Jalan</b> : {LEBAR_JLN}<br><hr><b>Tipologi</b> : {TIPOLOGI}<br><hr><b>Kelas</b> : {KLAS}<br><hr><b>Kecamatan</b> : {KECAMATAN}<br>"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Rencana Struktur RDTR",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/1",
+                "title": "Peta Infrastruktur Transportasi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/2",
+                "title": "Peta Infrastruktur Telekomunikasi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/3",
+                "title": "Peta Infrastruktur Sumber Daya Air",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/4",
+                "title": "Peta Pengembangan Pusat Pelayanan",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/5",
+                "title": "Peta Infrastruktur Prasarana Lainnya",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/6",
+                "title": "Peta Jaringan Persampahan",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/7",
+                "title": "Peta Infrastruktur Energi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/8",
+                "title": "Peta Infrastruktur Drainase",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/9",
+                "title": "Peta Infrastruktur Pengelolaan Air Limbah",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/10",
+                "title": "Peta Infrastruktur Air Minum",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/11",
+                "title": "Peta Jaringan Transportasi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/12",
+                "title": "Peta Jaringan Telekomunikasi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/13",
+                "title": "Peta Jaringan Sumber Daya Air",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/14",
+                "title": "Peta Jaringan Prasarana Lainnya",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/15",
+                "title": "Peta Jaringan Energi",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/16",
+                "title": "Peta Jaringan Drainase",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/17",
+                "title": "Peta Jaringan Pengelolaan Air Limbah",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            },
+            {
+                "url": "https://jakartasatu.jakarta.go.id/server/rest/services/Rencana_Struktur_Ruang/FeatureServer/18",
+                "title": "Peta Jaringan Air Minum",
+                "is_default": false,
+                "popupTemplate": {
+                    "title": "{NAMOBJ}",
+                    "content": "<hr><b>Nama</b> : {NAMOBJ}<br><b>Keterangan</b> : {REMARK}"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Peta Dasar Struktur",
+        "icon": "https://jakartasatu.jakarta.go.id/apimobile/app/storage/ic_batas%20wilayah_1.png",
+        "layers": [
+            {
+                "url": "https://tataruang.jakarta.go.id/server/rest/services/peta_dasar/Peta_Struktur_Jakarta_2018_Tanpa_Penutup/MapServer",
+                "title": "Peta Dasar Struktur",
+                "is_default": false
+            }
+        ]
+    }
+]
