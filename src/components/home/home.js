@@ -55,7 +55,7 @@ function home() {
                         justifyContent="center"
                         alignItems="center"
                         sx={{ maxWidth: "90vw" }}>
-                        <Grid xs={12} sm={12} md={12} lg={5.5} xl={5.5}>
+                        <Grid xs={12} sm={12} md={12} lg={6} xl={6}>
                             <img
                                 src='/jakartasatu-beta/assets/Ellipse-2.png'
                                 alt="Gambar"
@@ -146,7 +146,7 @@ function home() {
                         flexWrap="wrap">
                         <section id="layanan"
                             style={{
-                                width: isMobile ? "90vw" : "",
+                                // width: isMobile ? "90vw" : "",
                                 height: "290px",
                                 padding: "20px",
                                 border: "1px solid #DFE6E9",
@@ -259,8 +259,8 @@ function home() {
                                             userSelect: "none",
 
                                             marginBottom: "25px",
-                                            width: isMobile ? "37vw" : '120px',
-                                            height: 'auto',
+                                            height: isMobile ? "37vw" : '120px',
+                                            width: 'auto',
                                         }}
                                     />
                                     <div>
@@ -552,7 +552,7 @@ function home() {
                                 direction="row"
                                 justifyContent="center"
                                 alignItems="center">
-                                <Grid xs={7} sm={7.5} md={7.5} lg={7.5} xl={7.5}>
+                                <Grid xs={5} sm={7.5} md={7.5} lg={7.5} xl={7.5}>
                                     <Box sx={{ marginBottom: "30px" }}>
                                         <Typography variant='p'
                                             sx={{
@@ -641,7 +641,7 @@ function home() {
                                         </div>
                                     </Stack>
                                 </Grid>
-                                <Grid xs={4} sm={3} md={3} lg={3} xl={3} sx={{ textAlign: "center" }}>
+                                <Grid xs={5} sm={3} md={3} lg={3} xl={3} sx={{ textAlign: "center" }}>
                                     <Box sx={{ marginBottom: "30px" }}>
                                         <img src='/jakartasatu-beta/assets/Gambar-skpd.png'
                                             alt="Gambar"

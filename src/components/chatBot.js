@@ -150,7 +150,7 @@ function ChatBot() {
                 </DialogTitle>
                 <DialogContent sx={{ padding: "0", overflow: "hidden" }}>
                     <div style={{ width: isMobile ? '80vw' : '600px', height: "80vh" }}>
-                        <embed src="https://jakartasatu.bahasalab.com/ai" width="100%" height="100%" style={{ border: 'none' }} />
+                        <iframe src="https://jakartasatu.jakarta.go.id/ai" width="100%" height="100%" style={{ border: 'none' }}></iframe>
                     </div>
                 </DialogContent>
             </Dialog>
